@@ -7,4 +7,4 @@ for i in a:
     if(len(i)>max1):
         temp=i
 print(temp)
-print(len(temp))
+print(len(temp ))
