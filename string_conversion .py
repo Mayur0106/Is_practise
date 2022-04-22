@@ -1,4 +1,4 @@
-num=input("Enter the ")
+num=input("Enter the string : ")
 l1=''
 for i in num:
     if(i>='a' and i<='z'):
