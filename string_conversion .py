@@ -6,5 +6,5 @@ for i in num:
     elif(i>='A' and i<='Z'):
         l1=l1+i
     else:
-        l1=l1+'_-'
+        l1=l1+'_'
 print(l1)
