@@ -11,7 +11,7 @@ def convert():
         print(m.rjust(l),"   ",n.rjust(len(bin(num))),"    ",ii.rjust(l),"    ",o.rjust(l))
        
 while(True):
-    print(" You can continue the program(Yes/No) \n\t1.Yes \n\t2.NO ")
+    print(" You can continue the program(Yes/No) \n\t1.Yes \n\t2.NO  ")
     ch=input("Enter the your chise :")
     if(ch==1 or 'Yes' or 'yes'):
         print("add")
