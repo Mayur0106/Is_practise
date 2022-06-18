@@ -1,4 +1,4 @@
-strr="India is the seventh-largest country by area and the second-most populous country in the world, situated in Asia  "
+strr=" India is the seventh-largest country by area and the second-most populous country in the world, situated in Asia  "
 a=strr.split()
 max1=len(a[0])
 temp=a[0]
