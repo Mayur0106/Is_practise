@@ -14,5 +14,5 @@ while(True):
     print(" You can continue the program(Yes/No) \n\t1.Yes \n\t2.NO ")
     ch=input("Enter the your chise :")
     if(ch==1 or 'Yes' or 'yes'):
-        print("add")
+        print("add ")
         convert()
