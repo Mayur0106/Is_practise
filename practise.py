@@ -1,6 +1,6 @@
 print("Hello"  )
 print("\n\n*********$*********\n ")
-num=input("Enter   ")
+num=input("Enter ")
 print(num)
 print("\n\n*********$********\n")
 
