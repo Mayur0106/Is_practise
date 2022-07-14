@@ -8,7 +8,7 @@ l1=''
 for i in range (0,len(num)):
     if(num[i]>='a' and num[i]<='z' ):
         l1=l1+num[i].upper()
-    elif(num[i]>='A' and num[i]<='Z '):
+    elif(num[i]>='A' and num[i]<='Z'):
         l1=l1+num[i].lower()
     else:
 #<<<<<<< HEAD
