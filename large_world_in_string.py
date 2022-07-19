@@ -4,7 +4,7 @@ max1=len(a[0])
 temp=a[0]
 
 for i in a:
-    if(len(i)>max1):
+    if(len(i)>max1  ):
         temp=i
 print(temp)
 print(len(temp)) 
