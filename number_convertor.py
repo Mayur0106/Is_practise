@@ -8,7 +8,7 @@ def convert():
         o=hex(i).replace("0x",' ')
         ii=str(i)
         
-        print(m.rjust(l),"",n.rjust(len(bin(num))),"    ",ii.rjust(l),"  ",o.rjust(l))
+        print(m.rjust(l),"",n.rjust(len(bin(num))),"     ",ii.rjust(l),"  ",o.rjust(l))
        
 while(True):
     print(" You can continue the program(Yes/No) \n\t1.Yes \n\t2.NO")
