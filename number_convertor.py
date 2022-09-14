@@ -7,7 +7,6 @@ def convert():
         n=oct(i).replace("0o"," ")
         o=hex(i).replace("0x",' ')
         ii=str(i)
-        
         print(m.rjust(l),"",n.rjust(len(bin(num))),"     ",ii.rjust(l),"  ",o.rjust(l))
        
 while(True):
