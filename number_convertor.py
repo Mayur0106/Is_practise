@@ -1,7 +1,7 @@
 def convert():
     num=int(input("Enter the number : "))
     l=len(bin(num))
-    print("Bin".center(l),"       ","oct".center(l)," ","dec".center(l),"   ","Hex".center(l))
+    print("Bin".center(l),"      ","oct".center(l)," ","dec".center(l),"   ","Hex".center(l))
     for i in range(num):
         m=bin(i).replace("0b",' ')
         n=oct(i).replace("0o"," ")
