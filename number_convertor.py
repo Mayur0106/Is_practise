@@ -1,5 +1,5 @@
 def convert():
-    num=int(input("Enter the number :"))
+    num=int(input("Enter the number : "))
     l=len(bin(num))
     print("Bin".center(l),"       ","oct".center(l)," ","dec".center(l),"   ","Hex".center(l))
     for i in range(num):
@@ -11,7 +11,7 @@ def convert():
         
 while(True):
     print(" You can continue the program(Yes/No) \n\t1.Yes \n\t2.NO")
-    ch=input("Enter the your chise :")
+    ch=input("Enter the your chise : ")
     if(ch==1 or 'Yes' or'yes'):
         print("add")
         convert()
