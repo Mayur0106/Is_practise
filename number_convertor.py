@@ -1,5 +1,5 @@
 def convert():
-    num=int(input("Enter the number :      "))
+    num=int(input("Enter the number :    "))
     l=len(bin(num))
     print("Bin".center(l),"      ","oct".center(l)," ","dec".center(l),"   ","Hex".center(l))
     for i in range(num):
